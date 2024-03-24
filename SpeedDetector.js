@@ -13,3 +13,5 @@ function detectSpeed(speed) {
         console.log("Points:" + demeritPoints);
     }
 }
+// Example:
+detectSpeed(80); // output: Points: 2
