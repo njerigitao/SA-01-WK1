@@ -19,3 +19,4 @@ if(marks >= 0 && marks <= 100){
 }else{
     console.log("Invalid input. Please enter a valid number")
 }
+
