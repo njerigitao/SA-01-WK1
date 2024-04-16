@@ -11,9 +11,6 @@ const taxBrackets = [
 //NHIF rates(monthly)
 const nhifRates = [
     {lower:0,upper:5999,amount:150},
-    {lower:6000,upper:7999,amount:300},
-    {lower:8000,upper:11999,amount:400},
-    {lower:12000,upper:14999,amount:500},
     {lower:15000,upper:19999,amount:600},
     {lower:20000,upper:24999,amount:750},
     {lower:25000,upper:29999,amount:850},

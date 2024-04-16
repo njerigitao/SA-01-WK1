@@ -6,6 +6,17 @@
   "scripts": {
     "test": ""
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Agnes Gitau",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njerigitao/SA-01-WK1.git"
+  },
+  "keywords": [
+    "SA-01-WK1"
+  ],
+  "bugs": {
+    "url": "https://github.com/njerigitao/SA-01-WK1/issues"
+  },
+  "homepage": "https://github.com/njerigitao/SA-01-WK1#readme"
 }
