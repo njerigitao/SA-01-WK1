@@ -6,7 +6,7 @@ function detectSpeed(speed) {
         console.log("Ok");
         return;
     }
-    const demeritPoints = math.floor((speed - speedLimit)/ kmPerPoint);
+    const demeritPoints = Math.floor((speed - speedLimit)/ kmPerPoint);
     if(demeritPoints >= 12) {
         console.log("License suspended");
     } else {

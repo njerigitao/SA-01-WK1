@@ -26,15 +26,15 @@ const nhifRates = [
     {lower:10000,upper:Infinity,amount:1700},
 ];
 //NSSF rates (monthly)
-const nnsfRateEmployee = 0.06; //6% of gross salary
-const nnsfRateEmployer = 0.06; //6% of gross salary
+const nssfRateEmployee = 0.06; //6% of gross salary
+const nssfRateEmployer = 0.06; //6% of gross salary
 function calculateTax(grossSalary){
     let tax = 0;
     for(const bracket of taxBrackets){
         if (grossSalary <= bracket.lower){
             break;
         }
-        const taxableAmount = math.min(grossSalary,bracket.upper)-bracket.lower; tax += taxableAmount*(bracket.rate/100);
+        const taxableAmount = Math.min(grossSalary,bracket.upper)-bracket.lower; tax += taxableAmount*(bracket.rate/100);
 
     }
     return tax;
